@@ -15,3 +15,9 @@ Post used in code : 5000
 curl --location --request POST 'http://localhost:5000/api/v1/upload-file' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --form 'files=@/home/ibis-lt-074/Desktop/employee_data_v1.csv'
+
+=======Fr Kafka commands===========
+sudo systemctl start zookeeper
+
+sudo systemctl start kafka
+sudo systemctl status kafka
